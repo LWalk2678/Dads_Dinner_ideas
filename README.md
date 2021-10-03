@@ -150,6 +150,7 @@ API Snippet: {
                 }
             }
         },
+
 Wireframes: 
 https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
 
@@ -164,5 +165,6 @@ Post-MVP: A list of additional/advanced features you would like to include in yo
  - search for additional receipies
  - make prettier
 
-Goals: What you plan to accomplish for each day of the project week.
+Goals: I want to make sure the main page is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
+
 Timeframes: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
