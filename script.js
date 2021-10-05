@@ -24,10 +24,34 @@ button.addEventListener('click', () => {
     })
     .then((resultsJson) => {
       console.log(resultsJson);
-      //renderList(resultsJson.Search)
+      renderList(resultsJson)
     })
     // .catch((error) => {
     //   console.log(`ERROR: ${error}`);
     // })
 })
 console.log("hi");
+
+const renderList = (mealList) => {
+  document.querySelector('.meal-list').innerHTML = '';
+  mealList.forEach(meal => {      
+
+    const mealData = document.createElement('div');
+    mealData.classname = 'mealData'
+
+    const mealTitle = document.createElement('h4')
+      mealTitle.innerText = meal.title
+      mealData.append(mealTitle)
+
+    const mealID = document.createElement('h5')
+      mealID.innerText = meal.id
+      mealData.append(mealID)
+
+    const mealPic = document.createElement('img')
+      mealPic.src = meal.image
+      mealData.append(mealPic)
+    // document.querySelector('.movie-list').append(moviePoster);
+
+    document.querySelector('.meal-list').append(mealData);
+  })
+}
