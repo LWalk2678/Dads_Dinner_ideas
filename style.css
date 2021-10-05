@@ -2,7 +2,7 @@
 /* ==================Drop Down Menu=================
 
 /* Dropdown Button */
-.dropbtn {
+.dropBtn {
   background-color: #3498DB;
   color: white;
   padding: 16px;
@@ -12,7 +12,7 @@
 }
 
 /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.dropBtn:hover, .dropBtn:focus {
   background-color: #2980B9;
 }
 

@@ -14,11 +14,29 @@
 </head>
 <body>
   <header>
-    <h1>Single Dads</h1>
-    <h1>Needing a quick Dinner idea?</h1>
+    <h1>Dad's Dinner Ideas</h1>
+    <picture>
+      <source media="(min-width: 650px)" srcset="images/cooking.jpeg">
+      <source media="(min-width: 465px)" srcset="images/cooking.jpeg">
+      <img src="images/cooking.jpeg">
+    </picture>
+    
+
   </header>
 
-  <!-- ================Dropdown Menu =================
+  <!-- ================Dropdown Menu ================= -->
+  
+  <label for="mainIngredient">Quick Meal Ideas</label>
+  <select id="mainIngredient" name="mainIngredient">
+    <option value="choose">Please choose one</option>
+    <option value="beef">Beef</option>
+    <option value="chicken">Chicken</option>
+    <option value="fish">Fish</option>
+    <option value="eggs">Eggs</option>
+    <option value="dessert">Dessert</option>
+  </select>
+
+<!-- 
   <div> class="dropdown">
     <button></button> onclick="showMeals()" class="dropBtn">Dropdown<button>
       <div id="myDropdown" class="dropdown-content">
@@ -28,7 +46,7 @@
         <a href=#>EggsLink</a>
       </div> -->
 
-  <h1>Feel Free to search here by an ingredient?</h1>
+  <h3>Feel Free to search here by a specific ingredient?</h3>
 
   <div class="search-section">
     <input type="text" id="blank" placeholder="Ingredient name">
@@ -42,3 +60,6 @@
   
 </body>
 </html>
+
+<!-- Deloy the Projuect on GitHub!!
+https://git.generalassemb.ly/sei-nyc-pawpaw/project-1/blob/master/deployment_guide.md -->
