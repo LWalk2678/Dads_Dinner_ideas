@@ -25,28 +25,22 @@
   </header>
 
   <!-- ================Dropdown Menu ================= -->
-  
-  <label for="mainIngredient">Quick Meal Ideas</label>
-  <select id="mainIngredient" name="mainIngredient">
-    <option value="choose">Please choose one</option>
-    <option value="beef">Beef</option>
-    <option value="chicken">Chicken</option>
-    <option value="fish">Fish</option>
-    <option value="eggs">Eggs</option>
-    <option value="dessert">Dessert</option>
-  </select>
+  <div class="dropDown">
+    <label for="mainIngredient">Quick Meal Ideas</label>
+    <select id="mainIngredient" name="mainIngredient" onchange="dropResults()">
+      <option value="choose">Please choose one</option>
+      <option value=1063645>Beef</option>
+      <option value=715525>Chicken</option>
+      <option value=635944>Fish</option>
+      <option value=636458>Eggs</option>
+      <option value=645246>Dessert</option>
+    </select>
+    <!-- <input id="submit" type="submit" value="submit" /> -->
+  </div>
 
-<!-- 
-  <div> class="dropdown">
-    <button></button> onclick="showMeals()" class="dropBtn">Dropdown<button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href=#>BeefLink</a>
-        <a href=#>ChickenLink</a>
-        <a href=#>FishLink</a>
-        <a href=#>EggsLink</a>
-      </div> -->
+<!-- =========insert a page break=========== -->
 
-  <h3>Feel Free to search here by a specific ingredient?</h3>
+  <h3>Want to search by a specific ingredient?</h3>
 
   <div class="search-section">
     <input type="text" id="blank" placeholder="Ingredient name">
@@ -54,9 +48,7 @@
   </div>
   
   <h2>Meal Ideas:</h2>
-  <section class="meal-list">
-    <!-- <div> class = mealsDiv </div> -->
-  </section>
+  <section class="meal-list"></section>
   
 </body>
 </html>

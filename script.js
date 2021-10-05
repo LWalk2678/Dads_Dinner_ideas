@@ -4,78 +4,58 @@
 
 //==========DropDown Menu===================
 
-(function () {
-  var main = document.getElementById('mainIngredient');
-  var beefMeals = {
-    meal1: 1063645,
-    meal2: 636167,
-    meal3: 10000566,
-  };
-  var chickenMeals = {
-    meal1: 1063645,
-    meal2: 636167,
-    meal3: 10000566,
-  };
-  
-  function pullInfo(selected) {
-  const input = document.getElementById('blank').value;
+const dropButton = document.querySelector('input');
+
+let main = document.getElementById('mainIngredient');
+
+const dropResults = (easyMeal) => {
+// dropButton.addEventListener('click', () => {
+  console.log("Dropdown button clicked");
+  idNum = main.value
+  fdNum = easyMeal
+  console.log(fdNum);
+  console.log(idNum);
+  //const idNum = document.getElementById('option').value;
 
   const API_KEY = '43b709665eea4cd3ab3f107fb001007f';
-
   const Id_URL = `https://api.spoonacular.com/recipes/${idNum}/information?apiKey=${API_KEY}`;
-
-  console.log("dropdown fuction running");
-
+  console.log("dropdown function running");
 
   fetch(Id_URL)
-    .then((results) => {
-      return results.json();
-    })
-    .then((resultsJson) => {
-      console.log(resultsJson);
-      renderList1(resultsJson)
-    })
-    // .catch((error) => {
-    //   console.log(`ERROR: ${error}`);
-    // })
+  .then((results) => {
+    return results.json();
+  })
+  .then((resultsJson) => {
+    console.log(resultsJson);
+    renderList1(resultsJson)
+  })
+  // .catch((error) => {
+  //   console.log(`ERROR: ${error}`);
+  // })
 }
-  
-
-})
-
-
-
-
-function getMainIngredient(choice) {
-  if (choice === 'Beef') {
-    return 1063645;
-  } else if (choice === 'Chicken') {
-    return 715525;
-  }
-
-}
+console.log("dropdown function done");
 
 const renderList1 = (mealList) => {
   document.querySelector('.meal-list').innerHTML = '';
-  mealList.forEach(meal => {      
+  //mealList.forEach(meal => {      
 
     const mealData = document.createElement('div');
     mealData.classname = 'mealData'
 
     const mealTitle = document.createElement('h4')
-      mealTitle.innerText = meal.title
+      mealTitle.innerText = mealList.title
       mealData.append(mealTitle)
 
     const mealID = document.createElement('h5')
-      mealID.innerText = meal.id
+      mealID.innerText = mealList.id
       mealData.append(mealID)
 
     const mealPic = document.createElement('img')
-      mealPic.src = meal.image
+      mealPic.src = mealList.image
       mealData.append(mealPic)
 
     document.querySelector('.meal-list').append(mealData);
-  })
+ // })
 }
 
 
