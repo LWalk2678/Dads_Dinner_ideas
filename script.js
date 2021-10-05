@@ -4,17 +4,17 @@
 
 
 
-const button = document.querySelector('button');
+const searchButton = document.querySelector('button');
 
-button.addEventListener('click', () => {
-  console.log("working");
+searchButton.addEventListener('click', () => {
+  console.log("search button clicked");
   const input = document.getElementById('blank').value;
-  // const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}&s=${input}`;
-  //const BASE_URL = `https://api.spoonacular.com/recipes/complexSearch?&${input}&apiKey=${API_KEY}`;
 
-  const API_KEY = '43b709665eea4cd3ab3f107fb001007f'
+  const API_KEY = '43b709665eea4cd3ab3f107fb001007f';
 
-  const Ing_URL = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${input}&number=5&apiKey=${API_KEY}`;
+  const BASE_URL = `https://api.spoonacular.com/recipes/complexSearch?&${input}&apiKey=${API_KEY}`;
+
+  const Ing_URL = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${input}&number=20&apiKey=${API_KEY}`;
 
   console.log(Ing_URL);
 
@@ -50,7 +50,6 @@ const renderList = (mealList) => {
     const mealPic = document.createElement('img')
       mealPic.src = meal.image
       mealData.append(mealPic)
-    // document.querySelector('.movie-list').append(moviePoster);
 
     document.querySelector('.meal-list').append(mealData);
   })
