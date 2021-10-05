@@ -12,8 +12,7 @@ const dropResults = (easyMeal) => {
 // dropButton.addEventListener('click', () => {
   console.log("Dropdown button clicked");
   idNum = main.value
-  fdNum = easyMeal
-  console.log(fdNum);
+  
   console.log(idNum);
   //const idNum = document.getElementById('option').value;
 
