@@ -1,18 +1,19 @@
-# Dads_Dinner_ideas
+## Dads_Dinner_ideas
 Quick meal ideas for single dads
 https://lwalk2678.github.io/Dads_Dinner_ideas/
 
 
-STEP 2: Pitch Your Project
+### STEP 2: Pitch Your Project
 Met wtih Carri for ~10 minutes to get my app idea approved. 
 
-App Title: Single Dad Dinner Ideas
+### App Title: Single Dad Dinner Ideas
 App Description: 
 Ask for a meat and return an easy receipe to make with information.
 
-API: https://api.spoonacular.com/recipes/complexSearch
+API: [https://api.spoonacular.com/recipes/](https://api.spoonacular.com/recipes/)
 
-API Snippet: {
+API Snippet: 
+''' {
     "vegetarian": false,
     "vegan": false,
     "glutenFree": false,
@@ -155,9 +156,8 @@ API Snippet: {
             }
         },
 
-Wireframes: 
-https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
-Completed and visible with the above link.
+### Wireframes: 
+[https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG](https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG)
 
 MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
   - make sure the API works! / renders Json result
