@@ -3,17 +3,13 @@ Quick meal ideas for single dads
 https://lwalk2678.github.io/Dads_Dinner_ideas/
 
 
-## STEP 2: Pitch Your Project
-Met wtih Carri for ~10 minutes to get my app idea approved. 
-
-### App Title: Single Dad Dinner Ideas
-App Description: 
-Ask for a meat and return an easy receipe to make with information.
+## Description
+Being a Single dad is hard enough.  Let's make dinner a little easier for you.  Use the drop-down menu for a quick idea, or use the search feature to find some more ideas! 
 
 ## API and Code Snippet: 
 https://api.spoonacular.com/recipes/
 
-''' {
+``` {
     "vegetarian": false,
     "vegan": false,
     "glutenFree": false,
@@ -155,24 +151,28 @@ https://api.spoonacular.com/recipes/
                 }
             }
         },
+```
 
-### Wireframes: 
+
+## Wireframes: 
 [https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG](https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG)
 
-MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
-  - make sure the API works! / renders Json result
-  - incorp Flexbox into CSS styling
-  - responsive design (iphone)
-  - dropdown menu for beef/chicken/fish
-  - return 2 receipes
+### MVP:  
+  - Find a usable API and make sure the API works!  
+  - Render the information with Json results
+  - Use HTML and JS to create the layout of the page
+  - Incorporate Flexbox into CSS styling
+  - Make sure you have a responsive design (iphone)
+  - Use dropdown menu for beef/chicken/fish/etc
+  - Return meal ideas
 
-Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
+### Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
  - search for additional receipies
  - make prettier
 
-Goals: I want to make sure the main page and JS is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
+## Goals: I want to make sure the main page and JS is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
 
-Timeframes: 
+## Timeframes: 
  - I expect the JS to take two days as it will hold the majority of the coding. 
  - I expect to spend a half day to full day on CSS
  - the remining time will be spend on adding features / enhancements
