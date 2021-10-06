@@ -1,4 +1,4 @@
-## Single Dads Dinner Ideas
+## Single Dad Dinner Ideas
 Quick meal ideas for single dads
 https://lwalk2678.github.io/Dads_Dinner_ideas/
 
@@ -167,11 +167,12 @@ https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
   - Use dropdown menu for beef/chicken/fish/etc
   - Return meal ideas
 
-## Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
+## Post-MVP: 
  - search for additional receipies
  - make prettier
 
-## Goals: I want to make sure the main page and JS is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
+## Goals: 
+I want to make sure the main page and JS is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
 
 ## Timeframes: 
  - I expect the JS to take two days as it will hold the majority of the coding. 
