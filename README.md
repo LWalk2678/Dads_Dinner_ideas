@@ -1,18 +1,18 @@
-## Dads_Dinner_ideas
+## Single Dads Dinner Ideas
 Quick meal ideas for single dads
 https://lwalk2678.github.io/Dads_Dinner_ideas/
 
 
-### STEP 2: Pitch Your Project
+## STEP 2: Pitch Your Project
 Met wtih Carri for ~10 minutes to get my app idea approved. 
 
 ### App Title: Single Dad Dinner Ideas
 App Description: 
 Ask for a meat and return an easy receipe to make with information.
 
-API: [https://api.spoonacular.com/recipes/](https://api.spoonacular.com/recipes/)
+## API and Code Snippet: 
+https://api.spoonacular.com/recipes/
 
-API Snippet: 
 ''' {
     "vegetarian": false,
     "vegan": false,
