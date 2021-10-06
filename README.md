@@ -3,11 +3,14 @@ Quick meal ideas for single dads
 
 
 STEP 2: Pitch Your Project
-Before you start any actual coding, you must meet with your Squad Leader for ~10 minutes to get your app idea approved. Prepare the following materials before your meeting and put them in your README.md:
+Met wtih Carri for ~10 minutes to get my app idea approved. 
 
 App Title: Single Dad Dinner Ideas
-App Description: Ask for a meat and return an easy receipe to make with information.
+App Description: 
+Ask for a meat and return an easy receipe to make with information.
+
 API: https://api.spoonacular.com/recipes/complexSearch
+
 API Snippet: {
     "vegetarian": false,
     "vegan": false,
@@ -153,6 +156,7 @@ API Snippet: {
 
 Wireframes: 
 https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
+Completed and visible with the above link.
 
 MVP: A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.
   - make sure the API works! / renders Json result
@@ -165,6 +169,9 @@ Post-MVP: A list of additional/advanced features you would like to include in yo
  - search for additional receipies
  - make prettier
 
-Goals: I want to make sure the main page is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
+Goals: I want to make sure the main page and JS is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
 
-Timeframes: How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.
+Timeframes: 
+ - I expect the JS to take two days as it will hold the majority of the coding. 
+ - I expect to spend a half day to full day on CSS
+ - the remining time will be spend on adding features / enhancements
