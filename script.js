@@ -45,13 +45,13 @@ const renderList1 = (mealList) => {
       mealTitle.innerText = mealList.title
       mealData.append(mealTitle)
 
-    const mealID = document.createElement('h5')
-      mealID.innerText = mealList.id
-      mealData.append(mealID)
-
     const mealPic = document.createElement('img')
       mealPic.src = mealList.image
-      mealData.append(mealPic)
+    mealData.append(mealPic)
+  
+    const mealIst = document.createElement('div')
+      mealIst.innerText = mealList.instructions
+      mealData.append(mealIst)
 
     document.querySelector('.meal-list').append(mealData);
  // })
@@ -70,7 +70,7 @@ searchButton.addEventListener('click', () => {
 
   const BASE_URL = `https://api.spoonacular.com/recipes/complexSearch?&${input}&apiKey=${API_KEY}`;
 
-  const Ing_URL = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${input}&number=4&apiKey=${API_KEY}`;
+  const Ing_URL = `https://api.spoonacular.com/recipes/findByIngredients?ingredients=${input}&number=6&apiKey=${API_KEY}`;
 
   console.log("Search function running");
 
