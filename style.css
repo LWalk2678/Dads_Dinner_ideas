@@ -33,3 +33,8 @@ h3 {
 h2 {
   font-style: italic;
 }
+
+.meal-list {
+  display : flex;
+  flex-wrap: wrap;
+}
