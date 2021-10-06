@@ -110,4 +110,3 @@ const renderList2 = (mealList) => {
     document.querySelector('.meal-list').append(mealData);
   })
 }
-
