@@ -10,6 +10,10 @@
 
 /* ====================Main Page Photo==================== */
 
+img.photo {
+  border-radius: 50%;
+}
+
 /* ==================Drop Down Menu================= */
 
 .dropDown {
@@ -40,7 +44,11 @@ h2 {
   display : flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  text-align: wrap;
 }
+
+
+
 
 /* ====================Media Styles================== */
 
@@ -54,6 +62,13 @@ ipad min 768 max 1024 */
 @media screen and (max-width: 500px) {
   img.photo{
     width: 100%;
+  }
+  img.mealPhoto {
+    width: 100%;
+  }
+  p.Fred {
+    text-align: wrap;
+    color: red
   }
 }
 

@@ -46,12 +46,14 @@ const renderList1 = (mealList) => {
       mealData.append(mealTitle)
 
     const mealPic = document.createElement('img')
-      mealPic.src = mealList.image
+    mealPic.src = mealList.image
+    mealPic.className = "mealPhoto"
     mealData.append(mealPic)
   
-    const mealIst = document.createElement('div')
-      mealIst.innerText = mealList.instructions
-      mealData.append(mealIst)
+    const mealInst = document.createElement('p')
+    mealInst.innerText = mealList.instructions
+    mealInst.className = "Fred"
+    mealData.append(mealInst)
 
     document.querySelector('.meal-list').append(mealData);
  // })
