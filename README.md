@@ -9,7 +9,8 @@ Being a Single dad is hard enough.  Let's make dinner a little easier for you.  
 ## API and Code Snippet: 
 https://api.spoonacular.com/recipes/
 
-``` {
+``` 
+{
     "vegetarian": false,
     "vegan": false,
     "glutenFree": false,
@@ -155,9 +156,9 @@ https://api.spoonacular.com/recipes/
 
 
 ## Wireframes: 
-[https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG](https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG)
+https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
 
-### MVP:  
+## MVP:  
   - Find a usable API and make sure the API works!  
   - Render the information with Json results
   - Use HTML and JS to create the layout of the page
@@ -166,7 +167,7 @@ https://api.spoonacular.com/recipes/
   - Use dropdown menu for beef/chicken/fish/etc
   - Return meal ideas
 
-### Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
+## Post-MVP: A list of additional/advanced features you would like to include in your app after you have met MVP.
  - search for additional receipies
  - make prettier
 
