@@ -10,6 +10,26 @@
 
 /* ==================Drop Down Menu================= */
 
+.dropDown {
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2em;
+}
+
 #mainIngredient {
   background-color: rgb(217, 240, 215);
+}
+
+
+/* ================Secondary Search================ */
+
+h3 {
+  text-align: wrap;
+}
+
+
+/* =============Results Section============== */
+
+h2 {
+  font-style: italic;
 }

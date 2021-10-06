@@ -99,13 +99,13 @@ const renderList2 = (mealList) => {
       mealTitle.innerText = meal.title
       mealData.append(mealTitle)
 
-    const mealID = document.createElement('h5')
-      mealID.innerText = meal.id
-      mealData.append(mealID)
-
     const mealPic = document.createElement('img')
       mealPic.src = meal.image
       mealData.append(mealPic)
+    
+    const mealID = document.createElement('h5')
+      mealID.innerText = meal.id
+      mealData.append(mealID)
 
     document.querySelector('.meal-list').append(mealData);
   })
