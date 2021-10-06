@@ -52,10 +52,7 @@ ipad min 768 max 1024 */
 } */
 
 @media screen and (max-width: 500px) {
-  h1{
-    color: orange;
-  }
-  img.small{
+  img.photo{
     width: 100%;
   }
 }
