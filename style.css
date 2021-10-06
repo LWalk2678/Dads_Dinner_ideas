@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+/* ====================Main Page Photo==================== */
+
+
+
 /* ==================Drop Down Menu================= */
 
 .dropDown {
@@ -38,4 +42,29 @@ h2 {
   display : flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+/* ====================Media Styles================== */
+
+/* iphone min 320 max 340
+ipad min 768 max 1024 */
+
+/* @media (min-width: 350){
+  h1{ color: green;}
+} */
+
+@media screen and (max-width: 425px) {
+  h1{
+    color: orange;
+  }
+  img{
+    background-image: url(images/ipad_photo.jpeg);
+  }
+}
+
+@media (min-width: 350) {
+  .img{
+    background-image: url(images/ipad_photo.jpeg);
+
+      }
 }
