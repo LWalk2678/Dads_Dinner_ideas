@@ -177,6 +177,7 @@ I want to make sure the main page and JS is done by end of day Tuesday if not be
 ## Timeframes: 
 
 | Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: |
 | Pseudocode Javascript | H | 3 hr| 2hrs |
 | HTML Structure| H | 2 hrs| 2 hrs |
 | Javascript Structure| H | 6 hrs| 8 hrs |
