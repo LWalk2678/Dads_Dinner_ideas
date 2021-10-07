@@ -175,6 +175,27 @@ https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
 I want to make sure the main page and JS is done by end of day Tuesday if not before.  Then I can focus on improving it and adding features to the page during the rest of the time.
 
 ## Timeframes: 
- - I expect the JS to take two days as it will hold the majority of the coding. 
- - I expect to spend a half day to full day on CSS
- - the remining time will be spend on adding features / enhancements
+
+| Component | Priority | Estimated Time | Actual Time |
+| Pseudocode Javascript | H | 3 hr| 2hrs |
+| HTML Structure| H | 2 hrs| 2 hrs |
+| Javascript Structure| H | 6 hrs| 8 hrs |
+| Add/test API call| H | 3 hrs| 4 hrs |
+| Adding clickable buttons and Event Listeners | H | 2 hrs| 2hrs |
+| Pulling Appropriate data from API | H | 3 hrs| 5 hrs |
+| Incorporating Flexbox | H | 1 hrs| 1hrs |
+| Styling page with CSS | H | 5 hrs| 3hrs |
+| Setting and Styling Media Queries | H | 2 hrs| 3 hrs |
+| Styling Images| H | 2 hrs| 1hrs |
+| Total | H | 33 hrs| 36 hrs |
+
+
+ ## Code Snippet:
+ This code I had found while researching additional topics and I liked the simplicity of changing the photos with the screen size all in one spot.
+ ```
+<picture>
+      <source media="(min-width: 650px)" srcset="images/cooking.jpeg" class="photo" alt="Dad cooking with Son">
+      <source media="(min-width: 450px)" srcset="images/ipad_photo.jpeg" class="photo" alt="Dad cooking with Daughter">
+      <img src="images/iphone_photo.jpeg" class="photo" alt="Dad holding Daughter">
+    </picture>
+ ```
