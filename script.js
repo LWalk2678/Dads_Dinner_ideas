@@ -10,8 +10,6 @@ const dropResults = (easyMeal) => {
   console.log("Dropdown button clicked");
   idNum = main.value;
 
-  console.log(idNum);
-
   const API_KEY = "43b709665eea4cd3ab3f107fb001007f";
   const Id_URL = `https://api.spoonacular.com/recipes/${idNum}/information?apiKey=${API_KEY}`;
   console.log("dropdown function running");
@@ -47,7 +45,7 @@ const renderList1 = (mealList) => {
 
   const mealInst = document.createElement("p");
   mealInst.innerText = mealList.instructions;
-  mealInst.className = "Fred";
+  mealInst.className = "Instructions";
   mealData.append(mealInst);
 
   document.querySelector(".meal-list").append(mealData);
@@ -94,12 +92,17 @@ const renderList2 = (mealList) => {
 
     const mealPic = document.createElement("img");
     mealPic.src = meal.image;
+    mealPic.id = meal.id
+    mealPic.className = "mealPicture";
     mealData.append(mealPic);
 
-    const mealID = document.createElement("h5");
-    mealID.innerText = "Meal Id #: " + meal.id;
+    const mealID = document.createElement("div");
+    mealID.innerText = "";
+    mealID.className = "findMeal";
     mealData.append(mealID);
 
     document.querySelector(".meal-list").append(mealData);
   });
 };
+
+

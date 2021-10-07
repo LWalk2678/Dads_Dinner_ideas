@@ -178,7 +178,7 @@ I want to make sure the main page and JS is done by end of day Tuesday if not be
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Pseudocode Javascript | H | 3 hr| 2 hrs |
+| Pseudocode Javascript | H | 2 hr| 1 hrs |
 | HTML Structure| H | 2 hrs| 2 hrs |
 | Javascript Structure| H | 6 hrs| 8 hrs |
 | Add/test API call| H | 3 hrs| 4 hrs |
@@ -188,7 +188,7 @@ I want to make sure the main page and JS is done by end of day Tuesday if not be
 | Styling page with CSS | H | 5 hrs| 3 hrs |
 | Setting and Styling Media Queries | H | 2 hrs| 3 hrs |
 | Styling Images| H | 2 hrs| 1 hrs |
-| Total | H | 29 hrs| 31 hrs |
+| Total | H | 28 hrs| 30 hrs |
 
 
  ## Code Snippet:

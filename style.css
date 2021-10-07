@@ -48,8 +48,6 @@ h2 {
 }
 
 
-
-
 /* ====================Media Styles================== */
 
 /* iphone min 320 max 340
@@ -66,7 +64,7 @@ ipad min 768 max 1024 */
   img.mealPhoto {
     width: 100%;
   }
-  p.Fred {
+  p.Instructions {
     text-align: wrap;
     color: red
   }
