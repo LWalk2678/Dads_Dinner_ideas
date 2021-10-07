@@ -6,7 +6,7 @@ https://lwalk2678.github.io/Dads_Dinner_ideas/
 ## Description
 Being a Single dad is hard enough.  Let's make dinner a little easier for you.  Use the drop-down menu for a quick idea, or use the search feature to find some more ideas! 
 
-## API and Code Snippet: 
+## API and Data Snippet: 
 https://api.spoonacular.com/recipes/
 
 ``` 
@@ -163,8 +163,8 @@ https://whimsical.com/dads-dinner-ideas-wireframe-Y1txwniyoegMnR5xHh7VkG
   - Render the information with Json results
   - Use HTML and JS to create the layout of the page
   - Incorporate Flexbox into CSS styling
-  - Make I have a responsive design (iphone)
-  - Use dropdown menu for beef/chicken/fish/etc
+  - Make sure I have a responsive design (iphone)
+  - Use dropdown menu for beef/chicken/fish/dessert
   - Return meal ideas
 
 ### Post-MVP: 
@@ -178,17 +178,17 @@ I want to make sure the main page and JS is done by end of day Tuesday if not be
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Pseudocode Javascript | H | 3 hr| 2hrs |
+| Pseudocode Javascript | H | 3 hr| 2 hrs |
 | HTML Structure| H | 2 hrs| 2 hrs |
 | Javascript Structure| H | 6 hrs| 8 hrs |
 | Add/test API call| H | 3 hrs| 4 hrs |
-| Adding clickable buttons and Event Listeners | H | 2 hrs| 2hrs |
+| Adding clickable buttons and Event Listeners | H | 2 hrs| 2 hrs |
 | Pulling Appropriate data from API | H | 3 hrs| 5 hrs |
-| Incorporating Flexbox | H | 1 hrs| 1hrs |
-| Styling page with CSS | H | 5 hrs| 3hrs |
+| Incorporating Flexbox | H | 1 hrs| 1 hrs |
+| Styling page with CSS | H | 5 hrs| 3 hrs |
 | Setting and Styling Media Queries | H | 2 hrs| 3 hrs |
-| Styling Images| H | 2 hrs| 1hrs |
-| Total | H | 33 hrs| 36 hrs |
+| Styling Images| H | 2 hrs| 1 hrs |
+| Total | H | 29 hrs| 31 hrs |
 
 
  ## Code Snippet:
