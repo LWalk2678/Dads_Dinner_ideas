@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- linking to JS file with a defer to wait for the html/DOM to load -->
-  <script defer src="script.js"></script>
+    <!-- linking to JS file with a defer to wait for the html/DOM to load -->
+    <script defer src="script.js"></script>
 
-  <!-- linking to CSSS file -->
-  <link href="style.css" type="text/css" rel="stylesheet"/>
+    <!-- linking to CSSS file -->
+    <link href="style.css" type="text/css" rel="stylesheet" />
 
-  <!-- Making sure HTML is set for screen size since mobile phones try to set the screen size on thier own -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Making sure HTML is set for screen size since mobile phones try to set the screen size on thier own -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Dad Dinners</title>
-
-</head>
-<body>
-  <header>
-    <h1>Dad's Dinner Ideas</h1>
+    <title>Dad Dinners</title>
+  </head>
+  <body>
+    <header>
+      <h1>Dad's Dinner Ideas</h1>
       <picture>
-        <source media="(min-width: 650px)" srcset="images/cooking.jpeg" class="photo" alt="Dad cooking with Son">
-        <source media="(min-width: 450px)" srcset="images/ipad_photo.jpeg" class="photo" alt="Dad cooking with Daughter">
-        <img src="images/iphone_photo.jpeg" class="photo" alt="Dad holding Daughter">
+        <source
+          media="(min-width: 650px)"
+          srcset="images/cooking.jpeg"
+          class="photo"
+          alt="Dad cooking with Son"
+        />
+        <source
+          media="(min-width: 450px)"
+          srcset="images/ipad_photo.jpeg"
+          class="photo"
+          alt="Dad cooking with Daughter"
+        />
+        <img
+          src="images/iphone_photo.jpeg"
+          class="photo"
+          alt="Dad holding Daughter"
+        />
       </picture>
+    </header>
 
-  </header>
+    <!-- ================Dropdown Menu ================= -->
+    <div class="dropDown">
+      <label for="mainIngredient">Quick Meal Ideas: </label>
+      <select
+        id="mainIngredient"
+        name="mainIngredient"
+        onchange="dropResults()"
+      >
+        <option value="choose">Please choose one</option>
+        <option value="1063645">Beef</option>
+        <option value="633519">Chicken</option>
+        <option value="635944">Fish</option>
+        <option value="646545">Eggs</option>
+        <option value="640002">Dessert</option>
+      </select>
+    </div>
 
-  <!-- ================Dropdown Menu ================= -->
-  <div class="dropDown">
-    <label for="mainIngredient">Quick Meal Ideas: </label>
-    <select id="mainIngredient" name="mainIngredient" onchange="dropResults()">
-      <option value="choose">Please choose one</option>
-      <option value=1063645>Beef</option>
-      <option value=633519>Chicken</option>
-      <option value=635944>Fish</option>
-      <option value=646545>Eggs</option>
-      <option value=640002>Dessert</option>
-    </select>
-  </div>
+    <!-- =========insert a page break=========== -->
 
-<!-- =========insert a page break=========== -->
+    <h3>Want to search by a specific ingredient?</h3>
 
-  <h3>Want to search by a specific ingredient?</h3>
+    <div class="search-section">
+      <input type="text" id="blank" placeholder="Ingredient name" />
+      <button id="searchBtn">Search</button>
+    </div>
 
-  <div class="search-section">
-    <input type="text" id="blank" placeholder="Ingredient name">
-    <button id="searchBtn">Search</button>
-  </div>
-  
-  <h2>Meal Ideas:</h2>
-  <section class="meal-list"></section>
-  
-</body>
+    <h2>Meal Ideas:</h2>
+    <section class="meal-list"></section>
+  </body>
 </html>
-
-
